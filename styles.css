@@ -116,14 +116,7 @@ img {
 
 
 /* this is for Image gallery: save:   float: left; */
-.Sizechange
-{
-overflow: hidden;
- margin: 4px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 300px;
-}
+
 
 div.galleryone {
     margin: 4px;
@@ -145,6 +138,17 @@ div.galleryone img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+
+
+.Sizechange
+{
+overflow: hidden;
+ margin: 4px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
 }
 
 .ziahist
