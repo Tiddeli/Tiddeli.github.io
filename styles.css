@@ -1,0 +1,168 @@
+body, html {
+    height: 100%;
+    font-family: 'Lobster', cursive;
+}
+
+.hero-image {
+    background-image: url("./images/header.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text1 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px #000000;
+}
+
+.hero-text2 {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    color: white;text-shadow: 2px 2px #000000;
+}
+
+.headone
+{font-size: 30px; }
+
+.danyfirst  {
+    height: 600px;
+    margin-left: 650px;
+ }
+
+  .cosplaytitle
+  {
+      font-size: 55px;
+      background-color: #ada1b7;
+      margin-left: 400px;
+      margin-right: 400px;
+      color: #130121;
+      border-width: 5px;
+      border-color: #000000
+    }
+
+    .cosplayjoke
+    {
+      margin-left: 550px;
+    }
+
+
+
+.outer_container {
+ display: flex;
+ align-items: top;
+ justify-content: center;
+ background: #eef1d3;
+}
+
+img {
+ height: 500px;
+ margin: 20px;
+ background: #f0d0d8;
+}
+
+.text-box {
+ width: 500px;
+ height: 400px;
+ margin-left: 50px;
+ margin-top: 30px;
+ background: #E3A3B4;
+}
+
+.containerstart {
+  display: flex;
+  justify-content: center;
+  background: #f0d0d8;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 149px;
+  height: 90px;
+  margin: 40px;
+  background: #579924;
+
+}
+
+.firstone {
+  background-image: url(./images/Mycrafts.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.secondone {
+  background-image: url(./images/mycosplays.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.thirdone {
+  background-image: url(./images/myhistory.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* this is for Image gallery: save:   float: left; */
+.Sizechange
+{
+
+}
+
+div.gallery {
+    margin: 4px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+
+div.gallery img {
+    width: 100%;
+    margin: 0px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.Sizechange
+
+
+.ziahist
+{ width: auto;
+  height: 470px;
+transform: translate(-50%);}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 760px) {
+	.my-text {
+		font-size: 30px;
+	}
+}
