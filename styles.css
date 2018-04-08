@@ -119,24 +119,25 @@ img {
 .Sizechange
 {
 overflow: hidden;
-width: auto;
-height: 500px;
-transform: translate(-50%);
+ margin: 4px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
 }
 
-div.gallery {
+div.galleryone {
     margin: 4px;
     border: 1px solid #ccc;
     float: left;
     width: 300px;
 }
 
-div.gallery:hover {
+div.galleryone:hover {
     border: 1px solid #777;
 }
 
 
-div.gallery img {
+div.galleryone img {
     width: 100%;
     margin: 0px;
 }
@@ -146,13 +147,25 @@ div.desc {
     text-align: center;
 }
 
-.Sizechange
-
-
 .ziahist
 { width: auto;
   height: 500px;
 transform: translate(-50%);}
+
+.medusahist
+{ width: auto;
+  height: 500px;
+transform: translate(-50%);}
+
+.lapishist
+{ width: auto;
+  height: 500px;
+transform: translate(-20%);}
+
+.medusabodyhist
+{ width: auto;
+  height: 500px;
+transform: translate(-60%);}
 
 
 
