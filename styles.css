@@ -118,7 +118,10 @@ img {
 /* this is for Image gallery: save:   float: left; */
 .Sizechange
 {
-
+overflow: hidden;
+width: auto;
+height: 500px;
+transform: translate(-50%);
 }
 
 div.gallery {
@@ -148,7 +151,7 @@ div.desc {
 
 .ziahist
 { width: auto;
-  height: 470px;
+  height: 500px;
 transform: translate(-50%);}
 
 
